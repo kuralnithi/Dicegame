@@ -26,7 +26,7 @@ p1rbtn.addEventListener('click',function(){
 
     let dicenum = Math.floor(Math.random() * 6) + 1;
     player1scr += dicenum;
-    p1scr.textContent = `Score ${player2scr}`;    
+    p1scr.textContent = `Score ${player1scr}`;    
     if (dicenum == 1)
     {
         imgbox.setAttribute("src", "dice1.png");
